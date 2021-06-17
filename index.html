@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+    
+    <script src="script/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="script/slick.js"></script>  
+</head>
+<body> 
+<div class="main_container">
+    <!--Header -->
+    <header class="header">
+        <h2 class="sr-only">Магазин BrandShop</h2>
+        <div class="top-bar">
+            <div class="top_bar__phone_item top-bar__box">
+                <a href="tel:+375293353328"><i class="fas fa-mobile-alt"></i> +375 29 335 33 28</a>
+            </div>
+            <div class="top_bar__email_item top-bar__box">
+                <a href="mailto:dekan06@gmail.com"><i class="far fa-envelope"></i> dekan06@gmail.com</a>
+            </div>
+            <div class="top_bar__login_item top-bar__box">
+                <a href="#"><i class="far fa-user"></i> Войти</a>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="main-header__logo"><a href="index.html">BrandShop</a></div>
+            <div class="search_form">
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <button class="button_activ" type="submit" aria-label="Искать">
+                        <span class="sr-only">Search</span>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="main-header__cart">
+                <a href="#" class="header_basket_button button_activ"><i class="fas fa-shopping-cart"></i>Корзина</a>
+            </div>
+        </div>
+        <!-- please use semantic tag <menu> -->
+        <div class="menu"> 
+            <ul>
+                <li class="menu__first_item"><a href="#"> <i class="fas fa-bars"></i> Категории</a>
+                    <ul>
+                        <li><a href="product.html">Смартфоны</a></li>
+                        <li><a href="product.html">Ноутбуки</a></li>
+                        <li><a href="product.html">Фотокамеры</a></li>
+                        <li><a href="product.html">Телевизоры</a></li>
+                        <li><a href="product.html">Наушники</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Акции</a></li>
+                <li><a href="#to_brand">Бренды</a></li>
+                <li><a href="blog.html">Статьи</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                
+            </ul>
+        </div>
+    </header>
+    <!--Banner -->
+    <div class="banner">
+        <div class="banner_background"></div>
+        <div class="banner_product"></div>
+        <div class="banner_content">
+            <h2 class="banner_text">Премьера смартфонов</h2>
+            <div class="banner_price">
+                <span>
+                    $530
+                </span>
+                    $460
+            </div>
+            <div class="banner_product-name">
+                Apple Iphone 6s
+            </div>
+            <div class="banner_button button_activ">
+                <a href="product.html">Купить</a>
+            </div>
+        </div>
+    </div>
+    <div class="characteristics">
+        <div class="characteristics_item">
+            <div class="char_logo"><i class="fas fa-truck"></i></div>
+            <div class="char_content">
+                <div class="char_title">Бесплатная доставка</div>
+                <div class="char_suptitle">от 100 BYN</div>
+            </div>
+        </div>
+        <div class="characteristics_item">
+            <div class="char_logo"><i class="fas fa-sync-alt"></i></i></div>
+            <div class="char_content">
+                <div class="char_title">Беспроблемный возврат</div>
+                <div class="char_suptitle">до 14 дней</div>
+            </div>
+        </div>
+        <div class="characteristics_item">
+            <div class="char_logo"><i class="fas fa-wallet"></i></i></i></div>
+            <div class="char_content">
+                <div class="char_title">Любая форма оплаты</div>
+                <div class="char_suptitle">Наличные, безнал</div>
+            </div>
+        </div>
+        <div class="characteristics_item">
+            <div class="char_logo"><i class="fas fa-tag"></i></i></i></i></div>
+            <div class="char_content">
+                <div class="char_title">Всегда хорошая цена</div>
+                <div class="char_suptitle">Акции, бонусы</div>
+            </div>
+        </div>
+    </div>
+    <div class="deals_featured">
+        <div class="featured_item_top">Популярные товары</div>
+        <div class="featured_item_grid">
+            <div class="deals_week">
+                <div class="deals_week__desc">Товар недели</div>
+                <div class="deals_week__img"><img src="img/deals.png" alt=""></div>
+                <div class="deals_week__text">
+                    <div class="deals_week__text-left">Наушники</div>
+                    <div class="deals_week__text-right">300 BYN</div>   
+                </div>
+                <div class="deals_week__text">
+                    <div class="deals_week__text-left font-24">Beoplay H7</div>
+                    <div class="deals_week__text-right font-24 font-red">225 BYN</div> 
+                    
+                </div>
+                <div>
+                    <button class="deals_week_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_1">
+                <div><img src="img/featured_1.png" alt=""></div>
+                <div class="font-700"> 379 BYN</div>
+                <div>Huawei MediaPad 10</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_2">
+                <div><img src="img/featured_2.png" alt=""></div>
+                <div class="font-700"> 349 BYN</div>
+                <div>Apple iPod shuffle</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_3">
+                <div><img src="img/featured_3.png" alt=""></div>
+                <div class="font-700"> 299 BYN</div>
+                <div>Sony MDRZX310W</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_4">
+                <div><img src="img/featured_4.png" alt=""></div>
+                <div class="font-700"> 319 BYN</div>
+                <div>Redmi Note 6</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_5">
+                <div><img src="img/featured_5.png" alt=""></div>
+                <div class="font-700"> 519 BYN</div>
+                <div>Canon STM Kit</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_6">
+                <div><img src="img/featured_6.png" alt=""></div>
+                <div class="font-700"> 399 BYN</div>
+                <div>Samsung J330F</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_7">
+                <div><img src="img/featured_7.png" alt=""></div>
+                <div class="font-700"> 899 BYN</div>
+                <div>Lenovo Idea Pad</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+            <div class="featured_item featured_item_8">
+                <div><img src="img/featured_8.png" alt=""></div>
+                <div class="font-700"> 69 BYN</div>
+                <div>Xiaomi Powerbank</div>
+                <div>
+                    <button class="featured_item_button button_activ"><a href="product.html">Купить</a></button>
+                </div>
+            </div>
+       
+        </div>    
+    </div>
+    <div class="popular_categories">
+        <div class="popular_categories_main"> Популярные категории</div>
+        <div class="popular_categories_item">
+            <div><img src="img/popular_1.png" alt=""></div>
+            <div class="popular_categories_text">Смартфоны</div>
+        </div>
+        <div class="popular_categories_item">
+            <div><img src="img/popular_2.png" alt=""></div>
+            <div class="popular_categories_text">Компьютеры</div>
+        </div>
+        <div class="popular_categories_item">
+            <div><img src="img/popular_3.png" alt=""></div>
+            <div class="popular_categories_text">Плееры</div>
+        </div>
+        <div class="popular_categories_item">
+            <div><img src="img/popular_4.png" alt=""></div>
+            <div class="popular_categories_text">Видео игры</div>
+        </div>
+        <div class="popular_categories_item">
+            <div><img src="img/popular_5.png" alt=""></div>
+            <div class="popular_categories_text">Наушники</div>
+        </div>
+    </div>
+    <div class="banner_2">
+        <div class="banner_2_bg">
+            
+                <div class="banner_2_container">
+                    <div class="banner_2_text">
+                        <div class="banner_2_categories">Ноутбуки</div>
+                        <div class="banner_2_name"> MacBook Air 13</div>
+                        <div class="banner_2_dscr"> Самый тонкий и лёгкий ноутбук Apple полностью преобразился с появлением чипа Apple M1. Центральный процессор теперь работает до 3,5 раза быстрее.</div>
+                        <div class="banner_2_button">
+                            
+                            <button type="submit" class="button_buy button_activ" value="Submit"><a href="product.html">Купить</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="banner_2_img">
+                        <img src="img/banner_2_product.png" alt="">
+                    </div>
+                </div> 
+
+                <div class="banner_2_container">
+                    <div class="banner_2_text">
+                        <div class="banner_2_categories">Смартфоны</div>
+                        <div class="banner_2_name"> iPhone 12</div>
+                        <div class="banner_2_dscr"> A14 Bionic, самый быстрый процессор iPhone. Дисплей OLED от края до края. Передняя панель Ceramic Shield, которая в четыре раза снижает риск повреждений дисплея при падении.</div>
+                        <div class="banner_2_button">
+                            
+                            <button type="submit" class="button_buy" value="Submit"><a href="product.html">Купить</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="banner_2_img">
+                        <img src="img/banner_3_product.png" alt="">
+                    </div>
+                </div> 
+
+                <div class="banner_2_container">
+                    <div class="banner_2_text">
+                        <div class="banner_2_categories">Аксессуары</div>
+                        <div class="banner_2_name"> Apple Watch Series 6</div>
+                        <div class="banner_2_dscr"> Измеряйте уровень кислорода в крови с помощью потрясающего датчика и специального приложения. Делайте ЭКГ, когда удобно и где угодно. </div>
+                        <div class="banner_2_button">
+                            
+                            <button type="submit" class="button_buy" value="Submit"><a href="product.html">Купить</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="banner_2_img">
+                        <img src="img/banner_4_product.png" alt="">
+                    </div>
+                </div> 
+            
+        </div>
+    </div>
+    
+    <div class="recently_viewed">
+        <div class="recently_viewed_container">
+            <div class="recently_grid">
+                <div class="recently_viewed_main">Популярные товары</div>
+                <div class="recently_1">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_1.jpg" alt="image-01">
+                        <div class="recently_box_price">375 BYN</div>
+                        <div class="recently_box_name">Beoplay H7</div>
+                    </a>
+                </div>
+                <div class="recently_2">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_2.jpg" alt="image-01">
+                        <div class="recently_box_price">229 BYN</div>
+                        <div class="recently_box_name">Xiaomi Mi 10</div>
+                    </a>
+                </div>
+                <div class="recently_3">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_3.jpg" alt="image-01">
+                        <div class="recently_box_price">449 BYN</div>
+                        <div class="recently_box_name">Samsung J730</div>
+                    </a>
+                </div>
+                <div class="recently_4">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_4.jpg" alt="image-01">
+                        <div class="recently_box_price">749 BYN</div>
+                        <div class="recently_box_name">Huawei MediaPad</div>
+                    </a>
+                    </div>
+                <div class="recently_5">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_5.jpg" alt="image-01">
+                        <div class="recently_box_price">1769 BYN</div>
+                        <div class="recently_box_name">Sony PS4 Slim</div>
+                    </a>
+                </div>
+                <div class="recently_6">
+                    <a class="recently_box" href="product.html">
+                        <img src="img/view_6.jpg" alt="image-01">
+                        <div class="recently_box_price">89 BYN</div>
+                        <div class="recently_box_name">Gamepad Canyon</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brand"><a name="to_brand"></a>
+        <div class="brand_container">
+            <div class="brand_box">
+                <img src="img/brands_1.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_2.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_3.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_4.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_5.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_6.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_7.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_8.jpg" alt="image-01">
+            </div>
+            
+        </div>
+    </div>
+        
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_contact">
+                    <div class="footer_logo"><a href="#">BrandShop</a></div>
+                    <div class="footer_title">У Вас появились вопросы? Работаем 24/7</div>
+                    <div class="footer_phone">
+                        <a href="tel:+375293353328"> +375 29 335 33 28</a>
+                    </div>
+                    <div class="footer_contact_text">
+                        улица Черничная 26, Минск
+                    </div>
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google"></i></a></li>
+                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+            <div class="footer_categories">
+                <div class="footer_categories__top">Категории</div>
+                <ul class="footer_categories__list">
+                    <li><a href="#">Смартфоны</a></li>
+                    <li><a href="#">Ноутбуки</a></li>
+                    <li><a href="#">Фотокамеры</a></li>
+                    <li><a href="#">Телевизоры</a></li>
+                    <li><a href="#">Наушники</a></li>
+                </ul>
+            </div>
+            <div class="footer_customer">
+                <div class="footer_customer__list-top">Личный кабинет</div>
+                <ul class="footer_customer__list">
+                    
+                    <li>Заказы</li>
+                    <li>Избранное</li>
+                    <li>Доставка</li>
+                    <li>Возврат</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="copy">Copyright ©2021 All rights reserved</div>
+    </div>
+</div>
+
+<!-- scripts -->
+<script src="script/all.js"></script>
+</body>
+</html>

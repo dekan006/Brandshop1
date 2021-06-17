@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+	
+    <title>Document</title>
+	
+	<script src="script/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="script/slick.js"></script> 
+	<script src="script/all.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+        
+    </style>
+	
+</head>
+<body>
+     
+     <!--Header -->
+    <header class="header">
+        <h2 class="sr-only">Магазин BrandShop</h2>
+        <div class="top-bar">
+            <div class="top_bar__phone_item top-bar__box">
+                <a href="tel:+375293353328"><i class="fas fa-mobile-alt"></i> +375 29 335 33 28</a>
+            </div>
+            <div class="top_bar__email_item top-bar__box">
+                <a href="mailto:dekan06@gmail.com"><i class="far fa-envelope"></i> dekan06@gmail.com</a>
+            </div>
+            <div class="top_bar__login_item top-bar__box">
+                <a href="#"><i class="far fa-user"></i> Войти</a>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="main-header__logo"><a href="index.html">BrandShop</a></div>
+            <div class="search_form">
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <button class="button_activ" type="submit" aria-label="Искать">
+                        <span class="sr-only">Search</span>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="main-header__cart">
+                <a href="#" class="header_basket_button button_activ"><i class="fas fa-shopping-cart"></i>Корзина</a>
+            </div>
+        </div>
+        <!-- please use semantic tag <menu> -->
+        <div class="menu"> 
+            <ul>
+                <li class="menu__first_item"><a href="#"> <i class="fas fa-bars"></i> Категории</a>
+                    <ul class="menu_none">
+                        <li><a href="product.html">Смартфоны</a></li>
+                        <li><a href="product.html">Ноутбуки</a></li>
+                        <li><a href="product.html">Фотокамеры</a></li>
+                        <li><a href="product.html">Телевизоры</a></li>
+                        <li><a href="product.html">Наушники</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Акции</a></li>
+                <li><a href="#to_brand">Бренды</a></li>
+                <li><a href="blog.html">Статьи</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                
+            </ul>
+        </div>
+    </header>
+    
+    <div class="singl_product">
+        <div class="singl_product_container">
+            <div class="product_foto">
+                <div class="product__grid-container">
+                    <div class="item-1 border-shadow">
+                        <img src="img/single_1.jpg" alt="image-01">
+                    </div>
+                    <div class="item-2 border-shadow ">
+                        <img src="img/single_2.jpg" alt="image-02">
+                    </div>
+                    <div class="item-3 border-shadow">
+                        <img src="img/single_3.jpg" alt="image-03">
+                    </div>
+                    <div class="item-4 border-shadow">
+                        <img src="img/single_4.jpg" alt="image-04">
+                    </div>
+                    <div class="text-product">
+                        <div class="singl_product__categories"> Laptop</div>
+                        <div class="singl_product__name"> MacBook  Air 13</div>
+                        <div class="singl_product__dscr"> Самый тонкий и лёгкий ноутбук Apple полностью преобразился с появлением чипа Apple M1. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря передовой системе Neural Engine от Apple скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.</div>
+                        <div class="singl_product__color">СЕРЫЙ</div>
+                        <div class="singl_product__price">4 499 BYN</div>
+                        <div class="singl_product__button">
+                            <button type="button" class="button product_button button_activ">Купить</button>
+                        </div>
+                        
+                    </div>
+                </div>             
+            </div>
+
+    </div>
+
+    <div class="recently_viewed">
+        <div class="recently_viewed_container">
+            <div class="recently_grid">
+                <div class="recently_viewed_main">Популярные товары</div>
+                <div class="recently_1 recently_box">
+                    <img src="img/view_1.jpg" alt="image-01">
+                    <div class="recently_box_price">375 BYN</div>
+                    <div class="recently_box_name">Beoplay H7</div>
+                </div>
+                <div class="recently_2 recently_box">
+                    <img src="img/view_2.jpg" alt="image-01">
+                    <div class="recently_box_price">229 BYN</div>
+                    <div class="recently_box_name">Xiaomi Mi 10</div>
+                </div>
+                <div class="recently_3 recently_box">
+                    <img src="img/view_3.jpg" alt="image-01">
+                    <div class="recently_box_price">449 BYN</div>
+                    <div class="recently_box_name">Samsung J730</div>
+                </div>
+                <div class="recently_4 recently_box">
+                    <img src="img/view_4.jpg" alt="image-01">
+                    <div class="recently_box_price">749 BYN</div>
+                    <div class="recently_box_name">Huawei MediaPad</div>
+                </div>
+                <div class="recently_5 recently_box">
+                    <img src="img/view_5.jpg" alt="image-01">
+                    <div class="recently_box_price">1769 BYN</div>
+                    <div class="recently_box_name">Sony PS4 Slim</div>
+                </div>
+                <div class="recently_6 recently_box">
+                    <img src="img/view_6.jpg" alt="image-01">
+                    <div class="recently_box_price">89 BYN</div>
+                    <div class="recently_box_name">Gamepad Canyon</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brand"><a name="to_brand"></a>
+        <div class="brand_container">
+            <div class="brand_box">
+                <img src="img/brands_1.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_2.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_3.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_4.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_5.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_6.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_7.jpg" alt="image-01">
+            </div>
+            <div class="brand_box">
+                <img src="img/brands_8.jpg" alt="image-01">
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer_container">
+            <div class="footer_contact">
+                    <div class="footer_logo"><a href="#">BrandShop</a></div>
+                    <div class="footer_title">У Вас появились вопросы? Работаем 24/7</div>
+                    <div class="footer_phone">+ 375 29 335 33 28</div>
+                    <div class="footer_contact_text">
+                        улица Черничная 26, Минск
+                    </div>
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google"></i></a></li>
+                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+            <div class="footer_categories">
+                <div class="footer_categories__top">Категории</div>
+                <ul class="footer_categories__list">
+                    <li><a href="#">Смартфоны</a></li>
+                    <li><a href="#">Ноутбуки</a></li>
+                    <li><a href="#">Фотокамеры</a></li>
+                    <li><a href="#">Телевизоры</a></li>
+                    <li><a href="#">Наушники</a></li>
+                </ul>
+            </div>
+            <div class="footer_customer">
+                <div class="footer_customer__list-top">Личный кабинет</div>
+                <ul class="footer_customer__list">
+                    
+                    <li>Заказы</li>
+                    <li>Избранное</li>
+                    <li>Доставка</li>
+                    <li>Возврат</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="copy">Copyright ©2021 All rights reserved</div>
+    </div>
+	
+	<!-- scripts -->
+
+</body>
+</html>
