@@ -7,6 +7,7 @@ $(document).ready(function(){
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
+	arrows: false,
         autoplaySpeed: 2000,
         responsive: [{
             breakpoint: 768,
@@ -30,6 +31,7 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
+	arrows: false,
         autoplaySpeed: 2000,
     });
 	
